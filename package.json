@@ -1,0 +1,24 @@
+{
+  "name": "async-execution-context",
+  "version": "0.0.1",
+  "description": "An execution context that persists across async tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexpods/async-execution-context.git"
+  },
+  "author": "alexpods <alexey.podskrebyshev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexpods/async-execution-context/issues"
+  },
+  "homepage": "https://github.com/alexpods/async-execution-context#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
