@@ -5,7 +5,7 @@ function log(...args) {
   require('fs').writeSync(1, `${require('util').format(...args)}\n`)
 }
 
-describe('Async Execution Context', () => {
+describe('AsyncExecutionContext class', () => {
   let ctx
 
   beforeEach(() => {
