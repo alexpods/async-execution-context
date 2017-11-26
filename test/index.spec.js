@@ -1,7 +1,6 @@
 const { expect } = require('chai')
 const { AsyncExecutionContext } = require('../src/async-execution-context')
 
-
 describe('async-execution-context module', () => {
   const mod = require('../src/index.js')
 
