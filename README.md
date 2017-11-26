@@ -1,5 +1,9 @@
 # async-execution-context
+[![Build Status](https://travis-ci.org/alexpods/async-execution-context.svg?branch=master)](https://travis-ci.org/alexpods/async-execution-context)
+
 An execution context that persists across async tasks
+
+
 
 ## Example
 
