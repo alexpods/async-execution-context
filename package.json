@@ -1,6 +1,6 @@
 {
   "name": "async-execution-context",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An execution context that persists across async tasks",
   "main": "index.js",
   "scripts": {
