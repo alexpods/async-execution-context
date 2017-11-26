@@ -66,12 +66,7 @@ class AsyncExecutionContext {
   }
 
   _createContext(asyncId, parentAsyncId) {
-    const ctx =  Object.create(this._store[parentAsyncId] || Object.prototype)
-
-    ctx.asyncId        = asyncId
-    ctx.triggerAsyncId = parentAsyncId
-
-    return ctx
+    return Object.create(this._store[parentAsyncId] || Object.prototype)
   }
 }
 
