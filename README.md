@@ -7,13 +7,13 @@ An execution context that persists across async tasks
 const { ctx } = require('async-execution-context')
 
 (async () => {
-
   ctx.prop1 = 10
 
   await Promise.resolve().then(() => {
     ctx.prop2 = 20
 
     console.log(ctx.prop1) // 10
+    console.log(ctx.prop2) // 20
   })
 
   console.log(ctx.prop1) // 10
